@@ -1,0 +1,31 @@
+{
+  "name": "modify-contract-storage-evm-fork",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "hardhat test",
+    "test:viem": "mocha -r ts-node/register test/viem-version.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/chai": "4",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "4",
+    "dotenv": "^16.4.5",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.22.7",
+    "viem": "^2.21.6"
+  }
+}
